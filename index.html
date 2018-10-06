@@ -19,6 +19,11 @@
       -moz-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%); }
+        
+         .content1 {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
 
         body {
       background-image: url("bgimage.jpg");
@@ -30,8 +35,8 @@
   <body link="white" vlink="white" alink="white" bgcolor="black">
     <div class="content">
         <table> 
-          <tr>
-            <td>
+          <tr class="content1">
+            <td class="content1">
               <p><form action="http://www.google.com/search" method="get">
               <input type="text" name="q" placeholder="Google"/>
               <input type="submit" value="Search"/>
