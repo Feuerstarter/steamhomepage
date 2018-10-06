@@ -10,6 +10,10 @@
        background: #181A1A; 
        padding: 10px; }
 
+        .relative {
+       position: relative;
+       text-align: center; }
+	   
         .content {
       position: absolute;
       top: 50%;
@@ -29,14 +33,12 @@
   
   <body link="white" vlink="white" alink="white" bgcolor="black">
     <div class="content">
-              <div style="display: inline-block;">
+              <div class="relative">
                 <form action="http://www.google.com/search" method="get">
                 <input type="text" name="q" placeholder="Google"/>
                 <input type="submit" value="Search"/>
                 </form>
-              </div>
 
-              <div style="display: inline-block;">
                 <form action="http://www.youtube.com/results" method="get">
                 <input type="text" name="q" placeholder="Youtube"/>
                 <input type="submit" value="Search"/>
