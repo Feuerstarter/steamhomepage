@@ -10,6 +10,9 @@
        background: #181A1A; 
        padding: 10px; }
 
+        .block {
+       display:inline-block; }
+        
         .content {
       position: absolute;
       top: 50%;
@@ -32,15 +35,18 @@
         <table> 
           <tr>
             <td>
-              <form action="http://www.google.com/search" method="get">
-              <input type="text" name="q" placeholder="Google"/>
-              <input type="submit" value="Search"/>
-              </form>
-          
-              <form action="http://www.youtube.com/results" method="get">
-              <input type="text" name="q" placeholder="Youtube"/>
-              <input type="submit" value="Search"/>
-              </form>
+              <div class="block">
+                <form action="http://www.google.com/search" method="get">
+                <input type="text" name="q" placeholder="Google"/>
+                <input type="submit" value="Search"/>
+                </form>
+              </div>
+                <div class="block">
+                <form action="http://www.youtube.com/results" method="get">
+                <input type="text" name="q" placeholder="Youtube"/>
+                <input type="submit" value="Search"/>
+                </form>
+              </div>
             </td>
           </tr>
           <tr>
