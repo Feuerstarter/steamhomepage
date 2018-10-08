@@ -13,11 +13,11 @@ height:32px;
 width:280px;
 border: 2px double black;
 font-style: italic;
-font-size: 16px; }
+font-size: 15px; }
 
 	input:hover {
 font-style: normal;
-font-size: 15px; }
+font-size: 14px; }
 
 	.relative {
 position: relative;
