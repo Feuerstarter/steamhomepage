@@ -4,7 +4,7 @@ text-align: center; }
 	.brd {
 border: 4px double white; 
 width: 207px; 
-background: #181A1A; 
+background-color: rgba(15, 15, 15, 0.8);
 padding: 10px;
 margin: 0px 7px 20px 7px; } 
 
