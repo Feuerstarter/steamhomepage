@@ -1,31 +1,37 @@
-	#center { text-align: center; }
+	#center { 
+text-align: center; }
+
 	.brd {
-	border: 4px double white; 
-	width: 207px; 
-	background: #181A1A; 
-	padding: 10px; } 
+border: 4px double white; 
+width: 207px; 
+background: #181A1A; 
+padding: 10px; } 
 
 	input {
-	text-align: center;
-	height:32px;
-	width:280px;
-	border: 2px double black; }
+text-align: center;
+height:32px;
+width:280px;
+border: 2px double black;
+font-style: italic; }
+
+	input:hover {
+font-style: normal;
 
 	.relative {
-	position: relative;
-	text-align: center; }
+position: relative;
+text-align: center; }
 	   
-        .content {
-      	position: absolute;
-      	top: 50%;
-      	left: 50%;
-      	transform: translate(-50%, -50%);
-      	-webkit-transform: translate(-50%, -50%);
-      	-moz-transform: translate(-50%, -50%);
-      	-o-transform: translate(-50%, -50%);
-      	-ms-transform: translate(-50%, -50%); }
+	.content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%); }
         
-        body {
-     	background-image: url("bgimage.jpg");
-      	background-size: cover;
-      	background-position: center center; }
+	body {
+background-image: url("bgimage.jpg");
+background-size: cover;
+background-position: center center; }
