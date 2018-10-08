@@ -8,6 +8,10 @@
 	input {
 	text-align: center;
 	}
+
+	.relative {
+	position: relative;
+	text-align: center; }
 	   
         .content {
       position: absolute;
