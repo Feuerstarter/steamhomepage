@@ -15,7 +15,7 @@ border: 2px double black;
 font-style: italic; }
 
 	input:hover {
-font-style: normal;
+font-style: normal; }
 
 	.relative {
 position: relative;
