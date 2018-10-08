@@ -4,9 +4,10 @@
        width: 207px; 
        background: #181A1A; 
        padding: 10px; } 
-        .relative {
-       position: relative;
-       text-align: center; }
+
+	input {
+	text-align: center;
+	}
 	   
         .content {
       position: absolute;
